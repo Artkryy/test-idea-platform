@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  color: #000;
+  gap: 15px;
+
+  &__first-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__second-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__depart-time,
+  &__arrival-time {
+    font-size: 34px;
+  }
+}
