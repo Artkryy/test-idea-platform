@@ -25,7 +25,7 @@ export const TicketCard: FC<ITicketCardProps> = ({ ticket }) => {
   return (
     <article className="card">
       <div className="card__first-wrap">
-        <img src={carrier} alt={carrier} />
+        <img alt={carrier} />
         <button onClick={() => alert('Хорошего полёта! :)')}>Купить за {price} ₽</button>
       </div>
       <div className="card__second-wrap">

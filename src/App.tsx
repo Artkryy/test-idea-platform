@@ -12,7 +12,7 @@ function App() {
   const [selectedFilters, setSelectedFilters] = useState<number[]>([]);
 
   useEffect(() => {
-    fetch('../public/tickets.json')
+    fetch('../test-idea-platform/tickets.json')
       .then(response => response.json())
       .then(data => {
         setTicketList(data.tickets);
